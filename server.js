@@ -31,7 +31,7 @@ app.get("/user", (req, res) => {
 });
 // serving the index.html file
 
-const server = app.listen(3000);
+const server = app.listen(8000 || process.env.PORT());
 const portNumber = server.address().port;
 console.log(`port: ${portNumber}`);
 // can see the port number in terminal - you can dictate the port number
