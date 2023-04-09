@@ -82,7 +82,7 @@ $(document).ready(function () {
         type: "function",
       },
     ];
-    const contractAddress = "0x74193B0B0e97650D25bEd5b7F26d2497B7AAFa3C";
+    const contractAddress = "0xD8f27A6d1735F15Eb1B48901e2832CCc760B90f4";
     window.web3 = await new Web3(window.ethereum);
     window.contract = await new window.web3.eth.Contract(ABI, contractAddress);
 
@@ -148,7 +148,7 @@ $(document).ready(function () {
         type: "function",
       },
     ];
-    const contractAddress = "0x74193B0B0e97650D25bEd5b7F26d2497B7AAFa3C";
+    const contractAddress = "0xD8f27A6d1735F15Eb1B48901e2832CCc760B90f4";
     window.web3 = await new Web3(window.ethereum);
     window.contract = await new window.web3.eth.Contract(ABI, contractAddress);
   };
@@ -209,7 +209,7 @@ $(document).ready(function () {
         type: "function",
       },
     ];
-    const contractAddress = "0x74193B0B0e97650D25bEd5b7F26d2497B7AAFa3C";
+    const contractAddress = "0xD8f27A6d1735F15Eb1B48901e2832CCc760B90f4";
     window.web3 = new Web3(window.ethereum);
     window.contract = await new window.web3.eth.Contract(ABI, contractAddress);
 
@@ -275,7 +275,7 @@ $(document).ready(function () {
         type: "function",
       },
     ];
-    const contractAddress = "0x74193B0B0e97650D25bEd5b7F26d2497B7AAFa3C";
+    const contractAddress = "0xD8f27A6d1735F15Eb1B48901e2832CCc760B90f4";
     window.web3 = new Web3(window.ethereum);
     window.contract = await new window.web3.eth.Contract(ABI, contractAddress);
     const accounts = await ethereum.request({ method: "eth_requestAccounts" });

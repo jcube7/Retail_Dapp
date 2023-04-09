@@ -7,10 +7,9 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           process.env.MNEMONIC,
-          `https://goerli.infura.io/v3/${process.env.INFURA_PROJECT_ID}`
+          `https://goerli.infura.io/v3/${process.env.PROJECT_ID}`
         ),
       network_id: 5,
-      confirmation: 2,
     },
   },
 

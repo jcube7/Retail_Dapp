@@ -56,18 +56,21 @@
     }
 
     .container {
+      background-color: #white;
       padding: 0 16px;
+      text-align: center;
     }
 
     .container::after,
     .row::after {
+      text-align: center;
       content: "";
       clear: both;
       display: table;
     }
 
     .title {
-      color: grey;
+      color: rgb(146, 145, 145);
     }
 
     .button {
@@ -75,8 +78,8 @@
       outline: 0;
       display: inline-block;
       padding: 8px;
-      color: white;
-      background-color: #007bff;
+      color: #000000;
+      background-color: #eba132;
       text-align: center;
       cursor: pointer;
       width: 100%;
@@ -84,7 +87,7 @@
     }
 
     .button:hover {
-      background-color: #0056b3;
+      background-color: #FFBD59;
     }
 
     @media screen and (max-width: 650px) {
@@ -92,6 +95,12 @@
         width: 100%;
         display: block;
       }
+    }
+
+    .h2 {
+      text-align: center;
+      padding: 0%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
   </style>
 </head>
@@ -118,9 +127,10 @@
   <!-- End Header -->
   <section>
     <div>
-      <h1>Welcome to the leading digital Retail Platform</h1>
-      <p>We focus on Simplifying Retail.</p>
-      <p>Impacting lives!</p>
+      <br>
+      <br>
+      <br>
+      <br><br>
     </div>
     <h2 style="text-align:center">Our Team</h2>
     <div class="row">
@@ -140,7 +150,7 @@
           <div class="container">
             <h2>Mike Ross</h2>
             <p class="title">Senior Retail Expert</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>Have 25Year of Retail Experience</p>
             <p>mike@example.com</p>
             <p><button class="button">Contact</button></p>
           </div>
@@ -152,7 +162,7 @@
           <div class="container">
             <h2>John Doe</h2>
             <p class="title">Retail Expert</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>Have 36Year of Retail Experience</p>
             <p>john@example.com</p>
             <p><button class="button">Contact</button></p>
           </div>
@@ -189,7 +199,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -198,7 +208,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <form action="" method="post">
@@ -216,26 +226,16 @@
 
     <div class="container d-md-flex py-4">
 
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+
+    </div>
+    <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
-    </div>
+    </div> -->
   </footer><!-- End Footer -->
   <!-- Vendor JS Files -->
   <script src="vendor/purecounter/purecounter_vanilla.js"></script>
