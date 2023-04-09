@@ -30,6 +30,10 @@ app.get("/user", (req, res) => {
   res.sendFile(path.join(__dirname + "/user.html"));
 });
 
+app.get("*", (req, res) => {
+  res.status(404).sendFile(path.join(__dirname + "/404.html"));
+});
+
 const server = app.listen(process.env.PORT || 8000);
 const portNumber = server.address().port;
 console.log(`port: ${portNumber}`);
